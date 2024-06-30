@@ -21,7 +21,7 @@ public class ShoppingCartImpl implements ShoppingCart {
     }
 
     @Override
-    public List<Integer> get(List<Integer> goods) {
+    public List<Integer> get() {
         return new ArrayList<>(this.goods);
     }
 }

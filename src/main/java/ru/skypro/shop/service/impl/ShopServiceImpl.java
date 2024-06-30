@@ -20,8 +20,8 @@ public class ShopServiceImpl implements ShopService {
     }
 
     @Override
-    public List<Integer> get(List<Integer> goods) {
-        return shoppingCart.get(goods);
+    public List<Integer> get() {
+        return shoppingCart.get();
     }
 
 }
